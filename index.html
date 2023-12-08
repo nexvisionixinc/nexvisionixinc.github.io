@@ -34,21 +34,96 @@
 						<div class="inner">
 						  <h2><b>NexVisionIX</b></h2>
 						  <h3>CUTTING-EDGE BUSINESS INTELLIGENCE SOLUTIONS USING THE POWER OF AI AND DATA SCIENCE</h3><br/>
-						  <div style="margin-bottom:10px"><b>Business Intelligence and Data Science</b>
-						    <div> <h12>Empowering businesses with data-driven insights and AI solutions for smarter decision-making.</h12></div>
-						  </div>
-						  <div style="margin-bottom:10px"><b>Artificial Intelligence</b>
-						    <div><h12>Harness AI's potential for innovation and automation.</h12></div>
-						  </div>
-						  <div style="margin-bottom:10px"><b>GIS and Location Intelligence</b>
-						    <div><h12>Unleashing the potential of spatial data with expert Geographic Information Systems and location-based analysis.</h12></div>
-						  </div>
-						  <div style="margin-bottom:10px"><b>Advanced Business Application Development</b>
-						    <div><h12>Tailored software solutions that transform business processes and maximize efficiency.</h12></div>
-						  </div>
-						</div>
 						<a href="#one" class="more scrolly" style="padding-top: 30px;">Learn More</a>
 					</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .carousel {
+      text-align: center;
+    }
+
+    .carousel-item {
+      display: none;
+    }
+
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<div class="carousel">
+  <div class="carousel-item active" id="item1">
+	<section id="empty-1" class="wrapper spotlight special">
+  	<section class="inner">
+  	<header class="major">
+  <h2 style="font-size: 25px; color: slategray;">ACCELERATE YOUR BUSINESS GROWTH WITH STRATEGIC IT CONSULTING</h2></br>
+  Unlock the Future of Business with AI and Data Science Expertise</br></br>
+  Elevate your business to new heights with our cutting-edge IT Consulting services, specializing in AI and Data Science. </br></br>
+  At Nexvisionix, we go beyond traditional solutions, offering a transformative approach that aligns your IT strategy seamlessly with your business needs.</br></br>
+  </div>
+</header>
+</section>
+</section>
+<div class="carousel-item" id="item2">
+	<section id="empty-1" class="wrapper spotlight special">
+  	<section class="inner">
+  	<header class="major">
+  <h2 style="font-size: 28px; color: slategray;">Why Choose Nexvisionix for Your IT Journey?</h2></br>
+
+ <b>Strategic Digital Transformation:</b> Embrace the power of innovation as we guide you through a strategic digital transformation journey. Leverage AI and Data Science to drive efficiency, enhance decision-making, and position your business at the forefront of industry evolution.</br></br>
+
+ <b>Data-Driven Insights:</b> Turn your data into a valuable asset. Our experts harness the potential of Business Intelligence and Data Science, providing you with actionable insights that shape smarter, more informed decisions.</br></br>
+
+ <b>Location Intelligence Mastery:</b> Explore new horizons with Geographic Information Systems (GIS) and Location Intelligence. Our specialists unleash the full potential of spatial data, offering a competitive edge in understanding location-based trends and opportunities.</br></br>
+
+ <b>Customized Software Solutions:</b> Experience tailor-made business application development that optimizes your operations. Our advanced solutions transform processes, driving efficiency and innovation across your organization.</br>
+ </div>
+  <div class="carousel-item" id="item3">
+  	<section id="empty-1" class="wrapper spotlight special">
+  	<section class="inner">
+  	<header class="major">
+  <h2 style="font-size: 28px; color: slategray;">Partner with Nexvisionix for a Future-Ready Business</h2>
+
+  <b>Collaborative Approach:</b> We work hand-in-hand with your team, understanding your unique challenges and goals. Our collaborative approach ensures that our solutions are perfectly aligned with your business objectives.</br></br>
+
+  <b>Operational Efficiency:</b> Optimize your operations and create efficiencies that directly impact your bottom line. Our IT Consulting services are designed to streamline processes, reducing costs while maximizing productivity.</br>
+
+  <b>Innovation at Every Step:</b> Stay ahead of the curve with our forward-thinking approach to IT strategy and management. We bring innovation to the core of your business, setting the stage for continuous growth and success.</br>
+
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
+    const carouselItems = document.querySelectorAll('.carousel-item');
+
+    function showSlide() {
+      carouselItems.forEach(item => {
+        item.classList.remove('active');
+      });
+
+      carouselItems[currentSlide].classList.add('active');
+      currentSlide = (currentSlide + 1) % carouselItems.length;
+    }
+
+    function startCarousel() {
+      showSlide();
+      setInterval(showSlide, 5000); // Change slide every 5 seconds
+    }
+
+    startCarousel();
+  });
+</script>
+
+</body>
+</html>
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
@@ -56,7 +131,7 @@
 								<h2>Trusted by leading enterprises</h2>
 								<p>Our customers trust in our ability to design and uphold innovative solutions that elevate customer satisfaction, optimize operational efficiency, and drive revenue growth.</p>
 							</header>
-							<div class="image"><img src="images/logos.png" width="100%" alt="logos" /></div>
+							<div class="image"><img src="images/logo.png" width="100%" alt="logos" /></div>
 						</div>
 					</section>
 					<section id="empty-1" class="wrapper spotlight special">
@@ -111,29 +186,15 @@
 								</p>
 							</div>
 						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/technology-landscape.png" alt="" /></div><div class="content">
-								<h2>Technology  Landscape</h2>
-								<div><strong>Machine Learning</strong></div>
-								<div>Machine learning enables systems to learn from data, make predictions, and automate decision-making</div>
-								<div><strong>Data Visualization</strong></div>
-								<div>Data visualization tools transform complex data into easily understandable visuals for effective communication and decision-making</div>
-								<div><strong>Geographic Information Systems (GIS):</strong></div>
-								<div>GIS technology helps analyze and visualize location-based data, aiding in spatial understanding and decision support</div>
-								<div><strong>Natural Language Processing (NLP)</strong></div>
-								<div>Natural Language Processing (NLP) empowers machines to understand, interpret, and generate human language</div>
-								<div><strong>Cloud Computing</strong></div>
-								<div>Cloud computing offers scalable and flexible infrastructure and services, reducing the need for on-premises hardware</div>
-								<div><strong>Full-Stack Development</strong></div>
-								<div>Full-stack development covers both front-end and back-end technologies, allowing for comprehensive application creation</div>
-								<div><strong>Database Management</strong></div>
-								<div>Database management ensures efficient storage, retrieval, and organization of data in applications and systems</div>
-								<div><strong>Mobile App Development</strong></div>
-								<div>Mobile app development focuses on creating applications for smartphones and tablets, expanding reach and accessibility</div>
-							</div>
-						</section>
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Technology Landscape</h2>
+							</header>
+						<div class="image"><img src="images/technology-land.png" width="100%" alt="tech" /></div>
 					</section>
-				<!-- One -->
+				<!-- Advisory -->
 				<section id="advisory-board" class="wrapper special">
 					<div class="inner">
 						<header class="major">
